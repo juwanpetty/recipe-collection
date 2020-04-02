@@ -27,6 +27,9 @@ export const spacing = {
     medium: 3,
     large: 6,
   },
+  letterSpacing: {
+    medium: 0.5,
+  },
 }
 export const typography = {
   family: {
