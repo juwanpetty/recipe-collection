@@ -31,7 +31,7 @@ export const Content = ({ children }) => {
           <Header siteTitle={data.site.siteMetadata.title} />
           <main>{children}</main>
         </ContentWrapper>
-        <Footer />
+        <Footer siteTitle={data.site.siteMetadata.title} />
       </Wrapper>
     </>
   )
