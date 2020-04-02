@@ -30,7 +30,7 @@ export const spacing = {
 }
 export const typography = {
   family: {
-    displayBold: "Libre Baskerville",
+    displayBold: `'Libre Baskerville', serif`,
     primary: `-apple-system, BlinkMacSystemFont, 'Inter', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif`,
@@ -46,7 +46,7 @@ export const typography = {
     s2: 1.4,
     m1: 1.6,
     m2: 1.8,
-    m3: 2.1,
+    m3: 2.4,
     l1: 3.2,
     l2: 4.8,
     l3: 6.4,
