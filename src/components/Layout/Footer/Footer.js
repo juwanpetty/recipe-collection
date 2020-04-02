@@ -1,10 +1,25 @@
 import React from "react"
-import { Wrapper } from "./Footer.module"
+import {
+  Wrapper,
+  FooterGroup,
+  FooterLogoContainer,
+  FooterLogo,
+} from "./Footer.module"
 
-export const Footer = () => (
+export const Footer = ({ siteTitle }) => (
   <Wrapper>
-    <p>Contact</p>
-    <p>Logo</p>
-    <p>Designed</p>
+    <FooterGroup>
+      <h4>For any questions</h4>
+      <a href="mailto:contact@example.com">contact@forks&knives.com</a>
+    </FooterGroup>
+
+    <FooterLogoContainer>
+      <FooterLogo>{siteTitle}</FooterLogo>
+    </FooterLogoContainer>
+
+    <FooterGroup>
+      <h4>Designed & developed by</h4>
+      <a href="https://www.juwanpetty.com/">Juwan Petty</a>
+    </FooterGroup>
   </Wrapper>
 )
