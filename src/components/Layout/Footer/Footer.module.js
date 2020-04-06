@@ -12,8 +12,10 @@ const Wrapper = styled.div`
 `
 
 const FooterGroup = styled.div`
+  font-weight: ${typography.weight.medium};
+
   a {
-    color: ${color.gray8};
+    color: ${color.gray9};
     text-decoration: none;
     font-size: ${typography.size.s1}rem;
     text-transform: uppercase;
@@ -23,7 +25,6 @@ const FooterGroup = styled.div`
 
   h4 {
     font-size: ${typography.size.s1}rem;
-    font-weight: ${typography.weight.medium};
     text-transform: uppercase;
     letter-spacing: ${spacing.letterSpacing.medium}px;
     margin: 0;

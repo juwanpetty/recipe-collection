@@ -42,7 +42,7 @@ export const typography = {
   weight: {
     regular: "400",
     medium: "600",
-    bold: "700",
+    bold: "800",
   },
   size: {
     s1: 1.2,

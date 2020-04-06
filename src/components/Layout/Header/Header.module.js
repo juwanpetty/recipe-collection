@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   position: relative;
   border-bottom: 1px solid ${color.gray7};
+  margin-bottom: 60px;
 `
 
 const Logo = styled(Link)`

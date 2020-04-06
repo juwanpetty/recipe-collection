@@ -3,7 +3,7 @@ import { spacing } from "../../../constants/styles"
 
 const Wrapper = styled.div`
   margin: 0 auto;
-  max-width: 1250px;
+  max-width: 1440px;
   padding: 0 ${spacing.padding.xmedium}px;
 
   /* styles for sticky footer */
