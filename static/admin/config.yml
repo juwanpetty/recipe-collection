@@ -11,51 +11,18 @@ collections:
     folder: "_posts/recipes"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: 
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string"
-        }
-      - {
-          label: "Published Date",
-          name: "date",
-          widget: "datetime"
-        }
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Published Date", name: "date", widget: "datetime" }
       - {
           label: "Categories",
           name: "categories",
-          widget: "select"
-          multiple: true
-          options: [
-            "Breakfast",
-            "Lunch",
-            "Dinner",
-            "Dessert"
-          ]
+          widget: "select",
+          multiple: true,
+          options: ["Breakfast", "Lunch", "Dinner", "Dessert"],
         }
-      - {
-          label: "Featured Image",
-          name: "thumbnail",
-          widget: "image"
-        }
-      - {
-          label: "Cooking Time",
-          name: "time",
-          widget: "string"
-        }
-      - {
-          label: "Serving Size",
-          name: "serving",
-          widget: "string"
-        }
-      - {
-          label: "Ingredients",
-          name: "ingredients",
-          widget: "markdown"
-        }
-      - {
-          label: "Directions",
-          name: "directions",
-          widget: "markdown"
-        }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Cooking Time", name: "time", widget: "string" }
+      - { label: "Serving Size", name: "serving", widget: "string" }
+      - { label: "Ingredients", name: "ingredients", widget: "markdown" }
+      - { label: "Directions", name: "directions", widget: "markdown" }
